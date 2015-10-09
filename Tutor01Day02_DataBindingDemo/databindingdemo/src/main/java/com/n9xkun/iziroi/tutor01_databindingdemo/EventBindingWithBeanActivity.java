@@ -35,7 +35,7 @@ public class EventBindingWithBeanActivity extends Activity {
     //init binber
     ActivityEventBindingWithBeanBinding binder =
       (ActivityEventBindingWithBeanBinding) DataBindingUtil.setContentView(this,
-        R.layout.activity_binding_with_imported_function);
+        R.layout.activity_event_binding_with_bean);
 
     //bind user
     UserBean user = new UserBean("Tao la", "Mot monster");
