@@ -26,6 +26,7 @@ public class ButtonHandler {
   /**
    * handler for click button Show me
    * @author hoangpt
+   *
    * @param v
    */
   public void onClickFriend(View v){
@@ -35,8 +36,9 @@ public class ButtonHandler {
   /**
    * handler for long click
    * @author hoangpt
+   *
    * @param v
-   * @return
+   * @return boolean
    */
   public boolean onClickEnemy(View v){
     Toast.makeText(v.getContext(), "I am not friendly", Toast.LENGTH_SHORT).show();

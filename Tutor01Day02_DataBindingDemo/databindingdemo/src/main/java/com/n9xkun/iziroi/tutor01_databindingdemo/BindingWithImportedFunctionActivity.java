@@ -18,7 +18,7 @@ import android.app.Activity;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
-import com.n9xkun.iziroi.tutor01_databindingdemo.databinding.ActivityEventBindingWithBeanBinding;
+import com.n9xkun.iziroi.tutor01_databindingdemo.databinding.ActivityBindingWithImportedFunctionBinding;
 import com.n9xkun.iziroi.tutor01_databindingdemo.events.ButtonHandler;
 import com.n9xkun.iziroi.tutor01_databindingdemo.model.UserBean;
 
@@ -26,17 +26,19 @@ import com.n9xkun.iziroi.tutor01_databindingdemo.model.UserBean;
  * controller for layout activity_binding_with_imported_function
  * @author hoangpt
  */
-public class EventBindingWithBeanActivity extends Activity {
+public class BindingWithImportedFunctionActivity extends Activity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
     //init binber
-    ActivityEventBindingWithBeanBinding binder = (ActivityEventBindingWithBeanBinding) DataBindingUtil.setContentView(this, R.layout.activity_event_binding_with_bean);
+    ActivityBindingWithImportedFunctionBinding binder =
+      (ActivityBindingWithImportedFunctionBinding) DataBindingUtil.setContentView(this,
+        R.layout.activity_binding_with_imported_function);
 
     //bind user
-    UserBean user = new UserBean("Tao la", "Mot monster");
+    UserBean user = new UserBean("Thuy", "Tran", 20);
     binder.setUser(user);
 
     //bind event

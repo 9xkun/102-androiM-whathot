@@ -18,25 +18,27 @@ import android.app.Activity;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
 
-import com.n9xkun.iziroi.tutor01_databindingdemo.databinding.ActivityEventBindingWithBeanBinding;
+import com.n9xkun.iziroi.tutor01_databindingdemo.databinding.ActivityBindingWithExpressionBinding;
 import com.n9xkun.iziroi.tutor01_databindingdemo.events.ButtonHandler;
 import com.n9xkun.iziroi.tutor01_databindingdemo.model.UserBean;
 
 /**
- * controller for layout activity_binding_with_imported_function
+ * controller for layout activity_binding_with_expression
  * @author hoangpt
  */
-public class EventBindingWithBeanActivity extends Activity {
+public class BindingWithExpressionActivity extends Activity {
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
     //init binber
-    ActivityEventBindingWithBeanBinding binder = (ActivityEventBindingWithBeanBinding) DataBindingUtil.setContentView(this, R.layout.activity_event_binding_with_bean);
+    ActivityBindingWithExpressionBinding binder =
+      (ActivityBindingWithExpressionBinding) DataBindingUtil.setContentView(this,
+        R.layout.activity_binding_with_expression);
 
     //bind user
-    UserBean user = new UserBean("Tao la", "Mot monster");
+    UserBean user = new UserBean("Tao la", "Mot monster", 20);
     binder.setUser(user);
 
     //bind event
