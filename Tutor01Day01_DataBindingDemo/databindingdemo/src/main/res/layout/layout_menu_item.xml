@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * http://iziroi.9xkun.com
+    *
+    * LICENSE
+    *
+    * This source file is belong to iziroi.9xkun.com. Please come to this site and
+    * get more source code. If you have any question, please send email to me at:
+    * phantichhoang@gmail.com
+    *
+    * @copyright Copyright (c) 2013-2014 iziroi
+    * @author hoangpt
+    * @version $Id$
+    * @since
+-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="80"
+        android:text="sample_text"
+        android:id="@+id/txtMenu" />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:id="@+id/imgNext"
+        android:src="@drawable/arrow" />
+</LinearLayout>
