@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tutor01_DataBindingDemo</string>
+
+    <!-- menu items -->
+    <string-array name="menu_items">
+        <item>SimpleBindingWithPlain</item>
+        <item>EventBindingWithBean</item>
+        <item>BindingWithExpression</item>
+        <item>BindingWithImportedFunction</item>
+    </string-array>
+</resources>

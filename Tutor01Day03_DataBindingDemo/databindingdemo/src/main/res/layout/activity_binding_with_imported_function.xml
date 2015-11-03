@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * http://iziroi.9xkun.com
+    *
+    * LICENSE
+    *
+    * This source file is belong to iziroi.9xkun.com. Please come to this site and
+    * get more source code. If you have any question, please send email to me at:
+    * phantichhoang@gmail.com
+    *
+    * @copyright Copyright (c) 2013-2014 iziroi
+    * @author hoangpt
+    * @version $Id$
+    * @since
+-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- declare data source -->
+    <data>
+        <import type="android.view.View" />
+        <import type="com.n9xkun.iziroi.tutor01_databindingdemo.helpers.StringUtils" />
+
+        <variable name="user" type="com.n9xkun.iziroi.tutor01_databindingdemo.model.UserBean"/>
+        <variable
+            name="buttonhandler"
+            type="com.n9xkun.iziroi.tutor01_databindingdemo.events.ButtonHandler" />
+    </data>
+
+    <!-- layout below -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{StringUtils.capitalize(user.fullName)}'
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_blue_dark"
+            />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@{user.firstName}"
+                  android:onLongClick="@{buttonhandler.onClickEnemy}"/>
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@{user.lastName}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adult"
+            android:textStyle="italic"
+            android:textColor="@android:color/holo_red_light"
+            android:visibility="@{user.isAdult ? View.VISIBLE:View.GONE}"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='@{"Show "+user.firstName+" "+user.lastName+" friend"}'
+            android:onClick="@{buttonhandler.onClickFriend}" />
+
+    </LinearLayout>
+</layout>

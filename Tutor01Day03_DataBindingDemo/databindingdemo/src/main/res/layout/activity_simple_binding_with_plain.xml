@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    * http://iziroi.9xkun.com
+    *
+    * LICENSE
+    *
+    * This source file is belong to iziroi.9xkun.com. Please come to this site and
+    * get more source code. If you have any question, please send email to me at:
+    * phantichhoang@gmail.com
+    *
+    * @copyright Copyright (c) 2013-2014 iziroi
+    * @author hoangpt
+    * @version $Id$
+    * @since
+-->
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- declare data source -->
+    <data>
+        <variable name="user" type="com.n9xkun.iziroi.tutor01_databindingdemo.model.UserPlain"/>
+    </data>
+
+    <!-- layout below -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@{user.firstName}" />
+
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="@{user.lastName}" />
+    </LinearLayout>
+</layout>
