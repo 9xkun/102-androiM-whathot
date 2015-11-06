@@ -1,18 +1,19 @@
-DataBindingDemo (Session01)
+DataBindingDemo (Session03)
 ==========================
-Demo theo toàn bộ hướng dẫn trên trang chủ của Google. http://developer.android.com/tools/data-binding/guide.html. Hai chủ đề demo cực đơn giản (khai báo databinding trong file xml với 2 object: Bean hoặc POJO)
-<br/> ![](https://raw.githubusercontent.com/9xkun/102-androiM-whathot/master/Tutor01Day01_DataBindingDemo/apk/DataBinding_Demo01.gif)
+Demo theo toàn bộ hướng dẫn trên trang chủ của Google.
+<br/>http://developer.android.com/tools/data-binding/guide.html
+<br/> ![](https://raw.githubusercontent.com/9xkun/102-androiM-whathot/master/Tutor01Day03_DataBindingDemo/apk/DataBinding_Demo03.gif)
 
 Thư mục apk chứa file chạy, mọi người kéo vào thiết bị và trải nghiệm app hoạt động thế nào nhé.
-<br/> Apk file: https://github.com/9xkun/102-androiM-whathot/raw/master/Tutor01Day01_DataBindingDemo/apk/databindingdemo-debug.apk
+<br/> Apk file: https://github.com/9xkun/102-androiM-whathot/raw/master/Tutor01Day03_DataBindingDemo/apk/databindingdemo-debug.apk
 
 Còn nếu siêu lười nữa thì mọi người chơi thử app trên web:
-<br/> https://appetize.io/app/971a67aahz0e3qa5xkzyrb78ur?device=nexus5&scale=75&orientation=portrait&osVersion=5.1
+<br/> https://appetize.io/app/uqyvc0ur0c0pq4nyr0b8r77x10?device=nexus5&scale=75&orientation=portrait&osVersion=5.1
 
 ## Setup
 Vì mình cho tất cả các source vào chung 1 dự án nên nếu các bạn git clone sẽ lấy cả repo về (có thể sẽ rất to. Một giải pháp nữa là sử dụng git sparse http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/)
 <br/> Do đó mọi người có thể tải file src được nén riêng ở link sau
-<br/> https://github.com/9xkun/102-androiM-whathot/raw/master/Tutor01Day01_DataBindingDemo/apk/Tutor01Day01_DataBindingDemo.zip
+<br/> https://github.com/9xkun/102-androiM-whathot/raw/master/Tutor01Day03_DataBindingDemo/apk/Tutor01Day03_DataBindingDemo.zip
 <br/> Sau đó giải nén bằng 7zip,winrar,winzip, ...  và import vào Android Studio.
 
 ## Chú ý

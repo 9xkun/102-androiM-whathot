@@ -1,7 +1,8 @@
 DataBindingDemo (Session02)
 ==========================
-Demo theo toàn bộ hướng dẫn trên trang chủ của Google.
-<br/>http://developer.android.com/tools/data-binding/guide.html
+Demo theo toàn bộ hướng dẫn trên trang chủ của Google.http://developer.android.com/tools/data-binding/guide.html. Hai chủ đề được nói tới là sử dụng:
+<br/>+ Expression trong file xml như >, + chuỗi.
+<br/>+ Import một vài thư viện như View để sử dụng View.VISIBLE.
 <br/> ![](https://raw.githubusercontent.com/9xkun/102-androiM-whathot/master/Tutor01Day02_DataBindingDemo/apk/DataBinding_Demo02.gif)
 
 Thư mục apk chứa file chạy, mọi người kéo vào thiết bị và trải nghiệm app hoạt động thế nào nhé.
