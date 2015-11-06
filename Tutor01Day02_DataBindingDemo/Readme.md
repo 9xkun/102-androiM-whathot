@@ -8,7 +8,7 @@ Thư mục apk chứa file chạy, mọi người kéo vào thiết bị và tr�
 <br/> Apk file: https://github.com/9xkun/102-androiM-whathot/raw/master/Tutor01Day02_DataBindingDemo/apk/databindingdemo-debug.apk
 
 Còn nếu siêu lười nữa thì mọi người chơi thử app trên web:
-<br/> https://appetize.io/app/971a67aahz0e3qa5xkzyrb78ur?device=nexus5&scale=75&orientation=portrait&osVersion=5.1
+<br/> https://appetize.io/app/rjueevgurrrb0z5x4jmhx9gw24?device=nexus5&scale=75&orientation=portrait&osVersion=5.1
 
 ## Setup
 Vì mình cho tất cả các source vào chung 1 dự án nên nếu các bạn git clone sẽ lấy cả repo về (có thể sẽ rất to. Một giải pháp nữa là sử dụng git sparse http://jasonkarns.com/blog/subdirectory-checkouts-with-git-sparse-checkout/)
